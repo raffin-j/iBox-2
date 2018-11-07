@@ -1,4 +1,4 @@
-iBox 2.6.8 -- BETA
+iBox 2.6.9 -- BETA
 ====
 
 Bochs for iOS, ALL credit goes to ColemanCDA for the base of iBox, Baddaboo for updating iBox with 64-Bit support, and the team behind Bochs. There is non-jailbroken device support. Use dev branch to toy with Voodoo 3d, linux should also be supported although colors may be wack. 
@@ -12,8 +12,8 @@ FOR SPEED (Warning: WILL warm up your device):
 ====
 
 Changes:
-* Updated to iOS 10 and XCode 8, still is Swift 2.3
-* Updated to Bochs 2.6.8
+* Updated to iOS 12 and XCode 9.1, still is Swift 3
+* Updated to Bochs 2.6.9
 * **Clunky** on-screen keyboard
    * NOTE: Shift is toggle, ~~visual indicator is planned~~
    * Shake to hide, rotate device to show <-- TEMPORARY
