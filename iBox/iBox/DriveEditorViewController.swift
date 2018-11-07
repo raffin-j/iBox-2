@@ -200,7 +200,7 @@ class DriveEditorViewController: UITableViewController, UITextFieldDelegate {
     func textFieldDidEndEditing(_ textField: UITextField) {
         
         // get index path of enclosing cel
-        let indexPath = self.tableView.indexPathForRow(at: textField.convert(textField.frame.origin, to: self.tableView))!
+        let indexPath = self.tableView.indexPathForRow(at: textField.convert(textField.bounds.origin, to: self.tableView))!
         
         // get model object
         let sectionArray = self.tableViewCellLayout[indexPath.section]
